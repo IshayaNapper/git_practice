@@ -1,0 +1,43 @@
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+
+body{
+  background-image: url(./img/websiteBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-content: center;
+}
+h1{
+  background-color: honeydew;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.carousel-inner{
+  background-color: black;
+  
+}
+
+.cImg{
+  text-align: center;
+  padding-left: 100px;
+  margin-left: 500px;
+
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel img {
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}

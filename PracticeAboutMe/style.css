@@ -1,5 +1,34 @@
-<style>
-div{
+ RULESETSTYLESHEET
+  *{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #586dcd 10px;
+    padding: 5px;
+  }
+  .jumbotron {
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+      background-color: #e9ecef;
+      border-radius: .3rem;
+    }
+  .customColor{
+      background-color: purple;
+
+  }
+  p{
+    font-style: italic, bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-feature-settings: "vrt2";
+    background-color: lightsteelblue;
+    line-height: 1.3em;
+    width: 100%;
+    border: 30px dotted pink;
+    padding: 10px 5px 10px 5px;
+    margin: 45px 10px 45px 10px;
+
+  }
+
+ div{
   height: 300px;
   position: sticky;
 }
@@ -8,32 +37,34 @@ nav{
   color:darkgreen;
 }
 img {
-  width: 100px;
-  border-radius: 70px;
+  width: 150px;
+  border-radius: 0px;
   float: middle;
-  margin-right:left;
   position: backdrop;
-}
-p.username {
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  
+
 }
 body {
   background-color: white;
   text-align: center;
+  background: -webkit-linear-gradient(-45deg,#3557, #141E30);
+  margin: 0;
+  padding: 0;
 }
 h1{
-  background-color:royalblue;
+  background-color:gainsboro;
   text-align: center;
-  padding: 30px;
-  font-size: 2em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.5em;
+  margin: 0 auto;
+  padding-inline-end: inherit;
+  text-transform: uppercase;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2{
   text-align: center;
   size: 10px;
-  font-family: cursive;
+  text-transform: capitalize;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
 }
 button{
   color: plum;
@@ -47,22 +78,7 @@ li{
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-.header-img{
-width: 100%;
-height: 400px;
-background: url('./Logos/background.jpg');
-background-size: cover;
-}
-
-.jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #e9ecef;
-    border-radius: .3rem;
-  }
-.customColor{
-    background-color: purple;
-}  
+  
 table, td,th {
 border: 7px; border-color: black;
 width: 150px;
@@ -82,8 +98,34 @@ table.center {
 margin-left:auto; 
 margin-right:auto;
 }
-a:hover{
-background-color: darkorchid;
+a:hover, p:hover{
+background-color: lightpink;
+text-transform: uppercase;
 }
-
-</style>
+.header-img{
+  width: 100%;
+  height: 200px;
+  background: url('./Logos/background.jpg');
+  background-size: cover;
+  }
+h2{
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+  font-size: 19px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: right;
+  width: 70%; 
+  font-style: italic;
+  font-weight: bold;
+}  
+.image {
+  background-image: url("./Logos/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+.overlay{
+  background-color: white;
+  opacity: 0.76;
+}

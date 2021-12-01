@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Charles Greasy Slabs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <section id="overlay">
+        <img><!--Burger Imagine-->
+        <hr>
+        <form action="submission.html" method="POST">
+            <h1>What Yummy Creation are u making!</h1>
+            <p>Don't be afraid to try something new! You might love it</p>
+            <section class="Protein">
+                <label for="Patty">What type of slab would you like? </label>
+                <input type="text" name="Patty" id="Patty">
+            </section>
+            <hr>
+            <section class="Fries">
+                <label for="amount">How many fries would you like?</label>
+                <input type="number" name="amount" id="amount">
+            </section>
+            <hr>
+            <section class="cooked">
+                <label for="doneness">How would you like your slab cooked?</label>
+                <br>
+                <span>RAW</span>
+                <input type="range" name="doneness" id="doneness" value="3" min=1 max=10>
+                <span>WELL DONEE</span>
+            </section>
+            <hr>
+            <section class="toppings">
+                <span>What's going on top chief?</span>
+                <input type="checkbox" name="toppings" id="Gravy" value="Gravy">
+                <label for="Gravy">Gravy</label>
+                <input type="checkbox" name="toppings" id="Carmel" value="Carmel">
+                <label for="Carmel">Carmel</label>
+                <input type="checkbox" name="toppings" id="Pesto" value="pesto">
+                <label for="pesto">Pesto</label>
+                <br>
+                <span class="Grill">Would you like your slab grilled?</span>
+                <input type="radio" name="Grill" id="yes" value="yes">
+                <label for="Yes">Yes, Please!</label>
+                <input type="radio" name="Grill" id="no" value="no">
+                <label for="No">No, I'm good </label>
+            </section>
+            <hr>
+            <section class="submission">
+                <input type="submit" value="submit">
+            </section>
+            <hr>
+        </form>
+
+    </section>
+
+</body>
+</html>

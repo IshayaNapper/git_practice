@@ -1,0 +1,78 @@
+.Banner{
+    background-image: url("./img/bannerImg.jpg");
+    background-repeat:inherit;
+    
+
+}
+/*Banner/Header Styling*/
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    letter-spacing: 12px;
+  }
+  
+  h1 {
+    background-image: url("./img/bgLogoWhite.JPG");
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+  }
+  /*-------------------*/
+  /*Styling Nav*/
+  li{
+     padding: 20px;
+     margin: 20px;
+  }
+  /* mouse over link */
+ .highlight:hover {
+    color: #ff0000;
+  }
+ nav{
+     height: 55px;
+     background-color: rgb(250, 206, 206)
+ }
+
+
+ /*Styling Main Content*/
+ h2{
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    letter-spacing: 20px;
+    font-weight: 900;
+   font-style:italic;
+   font-size: 3.5rem;
+ }
+ body{
+     background-image: url(./img/websiteBack.jpg);
+     background-size: cover;
+ }
+ main{
+     background-color: lightpink;
+ }
+ p{
+    text-indent: 30px;
+    font-size: 1rem;
+    font-family:cursive;
+    font-family: initial;
+    
+ }
+ .border{
+    border: 20px solid pink;
+ }
